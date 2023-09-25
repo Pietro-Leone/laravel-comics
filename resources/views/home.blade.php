@@ -9,7 +9,9 @@
     <div class="d-flex flex-wrap justify-content-center mb-5">
       @foreach ( $comics as $element)
       <div class="card-box">
-        @include("partials.card")
+        <a href="/card">
+          @include("partials.card")
+        </a>
       </div>
       @endforeach
     </div>
